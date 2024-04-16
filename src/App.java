@@ -6,5 +6,7 @@ public class App {
         Book war = new Book("Война и мир", tolstoy, 1896);
 
         war.setAge(1805);
+        System.out.println(toska);
+        System.out.println(chehov.equals(tolstoy));
     }
 }
